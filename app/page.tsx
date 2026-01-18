@@ -1,4 +1,3 @@
-import { NewMarqueeDemo } from "@/components/features/blog-marquee";
 import { Feature } from "@/components/features/featured-project";
 import { LineShadowText } from "@/components/utils/line-shadow-text";
 import { SpinningText } from "@/components/utils/spinning-text";
@@ -63,11 +62,11 @@ export default function Home() {
             <SpinningText>Proudly alive • earn more • grow more •</SpinningText>
           </div>
         </div>
-        <div className="w-full">
+        {/* <div className="w-full">
           
         <Feature />
-      </div>
-<div className="space-y-5">
+      </div> */}
+{/* <div className="space-y-5">
   <div className="flex flex-col items-start gap-3">
     <p className="text-sm text-zinc-500">BLOG</p>
     <p className=" sm:text-4xl font-bold font-bricolage  tracking-tight text-2xl text-center text-foreground">Recent Posts</p>
@@ -76,7 +75,7 @@ export default function Home() {
 
 
 <NewMarqueeDemo/>
-</div>
+</div> */}
       </div>
 
     

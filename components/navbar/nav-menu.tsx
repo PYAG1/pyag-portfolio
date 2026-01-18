@@ -20,11 +20,11 @@ export const NavMenu = (props: NavigationMenuProps) => (
           <Link href="/projects">Projects</Link>
         </NavigationMenuLink>
       </NavigationMenuItem>
-      <NavigationMenuItem>
+      {/* <NavigationMenuItem>
         <NavigationMenuLink asChild>
           <Link href="/about">About</Link>
         </NavigationMenuLink>
-      </NavigationMenuItem>
+      </NavigationMenuItem> */}
       <NavigationMenuItem>
         <NavigationMenuLink asChild>
           <Link href="https://docs.google.com/document/d/1CcE_SCYmFl2nLRQwFA7PM9z1Fv_uasnHZxwMPBYBwfs/edit?usp=sharing">Resume</Link>
