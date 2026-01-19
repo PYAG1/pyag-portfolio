@@ -1,4 +1,3 @@
-import { Feature } from "@/components/features/featured-project";
 import { LineShadowText } from "@/components/utils/line-shadow-text";
 import { SpinningText } from "@/components/utils/spinning-text";
 import { socials } from "@/constants";
